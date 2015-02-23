@@ -1,4 +1,3 @@
-# Over the wire
 ## Leviathan
 ### Level 1:
  - Leviathan’s levels are called leviathan0, leviathan1, … etc. and can be accessed on leviathan.labs.overthewire.org through SSH.
