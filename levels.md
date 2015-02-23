@@ -10,10 +10,11 @@ leviathan0@melinda:~$ egrep password .backup/bookmarks.html
 <DT><A HREF="http://leviathan.labs.overthewire.org/passwordus.html | This will be fixed later, the password for leviathan1 is rioGegei8m" ADD_DATE="1155384634" LAST_CHARSET="ISO-8859-1" ID="rdf:#$2wIU71" password to leviathan1</A>
 ```
 
-Level 2:
-Username: leviathan1
-Password: rioGegei8m
+### Level 2:
+ - Username: leviathan1
+ - Password: rioGegei8m
 
+```
 leviathan1@melinda:~$ echo asd | ltrace ./check 2>&1 | egrep strcmp
 strcmp("asd", "sex")                             = -1
 
@@ -21,27 +22,31 @@ leviathan1@melinda:~$ ./check
 sex
 $ cat /etc/leviathan_pass/leviathan2
 ougahZi8Ta
+```
 
 
 
-Level 3:
-Username: leviathan2
-Password: ougahZi8Ta
+### Level 3:
+ - Username: leviathan2
+ - Password: ougahZi8Ta
 
+```
 leviathan2@melinda:/tmp$ ln -s /etc/leviathan_pass/leviathan2 "/tmp/aabcd e"
 leviathan2@melinda:/tmp$ ln -s /etc/leviathan_pass/leviathan3 "/tmp/aabcd"
 leviathan2@melinda:/tmp$ ~/printfile "aabcd e"
 Ahdiemoo1j
+```
 
 
 
 
 
 
-Level 4:
-Username: leviathan3
-Password: Ahdiemoo1j
+### Level 4:
+ - Username: leviathan3
+ - Password: Ahdiemoo1j
 
+```
 leviathan3@melinda:~$ objdump -D level3  | less
 
 80485ae:       f3 a6                   repz cmpsb %es:(%edi),%ds:(%esi)
@@ -64,13 +69,15 @@ Enter the password> snlprintf
 $ cat /etc/leviathan_pass/leviathan4
 vuH0coox6m
 $ 
+```
 
 
-Level 5:
-Username: leviathan4
-Password: vuH0coox6m
+### Level 5:
+ - Username: leviathan4
+ - Password: vuH0coox6m
 
 
+```
 leviathan4@melinda:~$ ./.trash/bin 
 01010100 01101001 01110100 01101000 00110100 01100011 01101111 01101011 01100101 01101001 00001010 
 leviathan4@melinda:~$ ltrace ./.trash/bin 
@@ -105,24 +112,28 @@ bin2ascii() {
 
 leviathan4@melinda:~$ bin2ascii $n ; echo
 Tith4cokei
+```
 
 
 
-Level 6:
-Username: leviathan5
-Password: Tith4cokei
+### Level 6:
+ - Username: leviathan5
+ - Password: Tith4cokei
 
 
+```
 leviathan5@melinda:~$ ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log ; ./leviathan5 
 UgaoFee4li
+```
 
 
 
-Level 7:
-Username: leviathan6
-Password: UgaoFee4li
+### Level 7:
+ - Username: leviathan6
+ - Password: UgaoFee4li
 
 
+```
 leviathan6@melinda:~$ ltrace ./leviathan6 1111
 __libc_start_main(0x804850d, 2, 0xffffd794, 0x8048590 <unfinished ...>
 atoi(0xffffd8c1, 0xffffd794, 0xffffd7a0, 0xf7e5510d)                                                                          = 1111
@@ -162,14 +173,17 @@ cat /etc/leviathan_pass/leviathan7
 
 
 ahy7MaeBo9
+```
 
 
 
-Level 8:
-Username: leviathan7
-Password: ahy7MaeBo9
+### Level 8:
+ - Username: leviathan7
+ - Password: ahy7MaeBo9
 
+```
 leviathan7@melinda:~$ cat CONGRATULATIONS 
 Well Done, you seem to have used a *nix system before, now try something more serious.
 (Please don't post writeups, solutions or spoilers about the games on the web. Thank you!)
 
+```
