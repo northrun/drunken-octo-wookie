@@ -1,4 +1,4 @@
-## Leviathan
+## Narnia
 ### Level 1:
  - Narnia’s levels are called narnia0, narnia1, … etc. and can be accessed on narnia.labs.overthewire.org through SSH.
  - Username: narnia0
@@ -73,6 +73,11 @@ Correct val's value from 0x41414141 -> 0xdeadbeef!
 Here is your chance: buf: 12345678901234567890ﾭ�
 val: 0xdeadbeef
 efeidiedae
+
+attempts to locally reproduce weren't successful specifically because they were 64-bit, which changed (presumably) the long value from 32 to 64 bits.  doing so meant only the terminal null character reached into the long value.
+
+gcc -m32 na0.c -o na0
+
 
 ```
 
