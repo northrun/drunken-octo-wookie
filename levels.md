@@ -182,8 +182,6 @@ ahy7MaeBo9
  - Password: ahy7MaeBo9
 
 ```
-leviathan7@melinda:~$ cat CONGRATULATIONS 
-Well Done, you seem to have used a *nix system before, now try something more serious.
-(Please don't post writeups, solutions or spoilers about the games on the web. Thank you!)
-
+leviathan7@melinda:~$ ls
+CONGRATULATIONS
 ```
